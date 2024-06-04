@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #5585b5;
+    width:100%;
+    height:100vh;
+    display: grid;
+    
+}
+
+.container{
+
+    text-align: center;
+    margin-top:35px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+    
+
+
+table{
+    margin: auto;
+}
+
+input{
+    border-radius: 10px;
+    padding:0;
+    border: none;
+    background-color: #deeff5;
+    font-size:34px;
+    height: 85px;
+    width: 500px;
+}
+
+button{
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    background:#deeff5;
+    width: 80px;
+    height: 70px;
+    margin: 10px;
+    
+    
+    
+    
+}
+#ans, #del, #clear, #brac1, #brac{
+    background-color: #6cbde9;
+}
+ 
+
+#perc, #root, #mul, #divi, #plus, #minus, #zero, #two{
+    background-color:#6cbde9 ;
+}
+
+
+.equal{
+    
+    background-color: #296e85;
+    width: 120px;
+    
+    
+    
+
+}
+   
+   
+.calculator{ 
+    border:1px solid white;
+    background-color: white;
+    padding: 23px;
+    border-radius: 30px;
+    display: inline-block;
+    
+}
+
+h1{
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
